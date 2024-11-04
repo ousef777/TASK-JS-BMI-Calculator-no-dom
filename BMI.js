@@ -9,7 +9,7 @@ function calculateBMI(weight, height) {
    *  Write your code here 👇🏼
    */
   height /= 100;
-  const BMI = weight / (height * height);
+  const BMI = weight / (height ** 2);
 
   /**
    * Stop making changes here!
